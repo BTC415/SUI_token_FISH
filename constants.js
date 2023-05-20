@@ -1,2 +1,2 @@
-export const packageObjectId = "0x72b58115af586a0bdff6dd924b3e02c8580e94e0d6dde7b00e919e0ef464e636";
-export const FishNFTMintInfo = "0xcd026c49fe074f00f3b8a03cbd4bbf7d6551056d02425f7967bb3c284b36b2bf"
+export const packageObjectId = "0x7920bcaa7dc509dd06a9f415f87ec261286c60dd76d01df85328eb3acfaf218d";
+export const FishNFTMintInfo = "0x2a2c833f7ff5a144ed5de9dfd2ae0ee193cc73629e6506a2da2ec0dd08a1a3e4"
