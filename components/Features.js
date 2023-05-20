@@ -97,7 +97,7 @@ const Features = function () {
                     </div>
                 </div>
             </div>
-            <div className='container' style={{marginTop:'4%',zIndex:'99',position:'inherit',width:'70%'}}>
+            <div className='container' style={{marginTop:'4%',zIndex:'99',position:'inherit',width:'40%'}}>
                 <div style={{display: 'flex'}}>
                     <p style={{fontSize:'16px'}}>Received</p>
                     <p style={{fontSize:'16px', position:'absolute', right :'30px'}}>2000</p>

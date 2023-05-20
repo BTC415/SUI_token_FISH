@@ -4,7 +4,7 @@ import Link from 'next/link';
 class FooterLinks extends React.Component {
   render() {
   	return (
-        <div className="footer-alt" style={{paddingBottom:'40px'}}>
+        <div className="footer-alt" style={{paddingBottom:'50px', marginBottom:'-27px'}}>
         <div className="container">
             <div className="row">
                 <div className="col-lg-12">

@@ -688,5 +688,10 @@ button, [type='button'], [type='reset'], [type='submit'] {
 }
 
 .progress-bar-striped {
-  color: #c5c50d;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.progress {
+  background-color: #cfa5a8 !important;
 }

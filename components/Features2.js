@@ -5,6 +5,7 @@ import { FishNFTMintInfo, packageObjectId } from "../constants";
 import ProgressBar  from 'react-bootstrap/ProgressBar';
 import { useSuiProvider } from '@suiet/wallet-kit';
 import { toast } from 'react-toastify';
+import Link from 'next/link';
 
 const Features2 = () => {
     const wallet = useWallet()    
@@ -67,7 +68,7 @@ const Features2 = () => {
                     </div>
                 </div>
             </div>
-            <div className='container' style={{marginTop:'4%',zIndex:'99',position:'inherit',width:"70%"}}>
+            <div className='container' style={{marginTop:'4%',zIndex:'99',position:'inherit',width:"40%"}}>
                 <div style={{display: 'flex'}}>
                     <p style={{fontSize:'16px'}}>Received</p>
                     <p style={{fontSize:'16px', position:'absolute', right :'30px'}}>8000</p>
@@ -79,7 +80,31 @@ const Features2 = () => {
                 <h1 className="text-center" style={{fontSize:'33px',fontWeight:'550', color:'#5a6854',marginTop:'4%'}}>{mintNum}/8000</h1>
                 <button  className="btn  waves-effect waves-light _token" style={{marginTop: '1%',width:'150px',letterSpacing: '0px'}} onClick={handleMint}>MINT</button>
             </div>
-            <div className="container" style={{marginTop:'8%'}}>
+
+            <div className="container margin-t-30" style={{maxWidth:'1230px',marginTop:'40px'}}>
+                <div aria-hidden="true" className="wp-block-spacer has-fade-left-gradient-background has-background has-position-absolute has-top has-right has-bottom has-left has-z-index has-pointer-events-none has-width left_svg" style={{maxHeight:'1500px'}}></div>
+                <div className='_mid_right' style={{width:'100%'}}>
+                    <div aria-hidden="true" className="wp-block-spacer has-fade-right-gradient-background has-background has-position-absolute has-top has-right has-bottom has-left has-z-index has-pointer-events-none has-width right_svg" style={{maxHeight:'1600px'}}></div>    
+                </div>
+                <div className="row vertical-content" style={{marginTop:'4%'}}>
+                    <div className="col-lg-12">
+                        <div className="features-box">
+                            <h1 className="" style={{fontSize:'52px',fontWeight:'600', color:'#5a6854', textAlign:'center'}}>FISH FOND</h1>
+                            <h1 className="" style={{fontSize:'33px',lineHeight: '1.8',fontWeight:'400', color:'#b7b0c1 !important',marginTop:'20px'}}>Every hour to open the fish pond, there is a fisherman nft can enter the fish pond fishing, different levels of fishermen have different fishing times and different levels of treatment, through a specific algorithm in accordance with a certain chance to catch fish (the algorithm open source code).</h1><h1 className="" style={{fontSize:'33px',lineHeight: '1.8',fontWeight:'400', color:'#b7b0c1 !important',marginTop:'20px'}}>The fish are classified as whales, sharks, and flounder.</h1><h1 className="" style={{fontSize:'33px',lineHeight: '1.8',fontWeight:'400', color:'#b7b0c1 !important',marginTop:'20px'}}>The value of each fish is different, whale as the highest value fish can be directly exchanged for $300 equivalent, shark $100, flounder only $10, the fish pond not only has fish, there are many unknown items, even the developers can not predict, some say there are BTC…</h1>
+                        </div>
+                    </div>
+                    <div className="col-lg-12">
+                        <div className="features-box">
+                        <img src="images/sui/1-1024x610.png" style={{width:'100%', borderRadius
+                    :'30px'}} alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='text-center'>
+            <Link href="https://docks.fishui.xyz" target="_blank"  className="btn  waves-effect waves-light _token" style={{marginTop: '4%',width:'260px',letterSpacing: '0px'}}>COMING SOON</Link>
+            </div>
+            <div className="container" style={{marginTop:'6%'}}>
                 <p className="section-subtitle font-secondary" style={{color:'#8686ff',marginBottom:'20px',fontSize: '18.4px'}}>fish</p>
                 <h1 className="" style={{fontSize:'51px',fontWeight:'600', color:'#5a6854'}}>WHAT IS FISH</h1>
                 <h1 className="" style={{fontSize:'28px',fontWeight:'400', color:'#b7b0c1 !important',marginTop:'30px'}}>GIFT OF THE DEEP SEA</h1>
@@ -99,12 +124,6 @@ const Features2 = () => {
                 <h1 className="" style={{fontSize:'28px',fontWeight:'400', color:'#b7b0c1 !important',marginTop:'30px'}}>0 6 1 0</h1>
                 <h1 className="" style={{fontSize:'28px',fontWeight:'400', color:'#b7b0c1 !important',marginTop:'30px'}}>FISHSWAP WILL BE ONLINE SOON</h1>
                 <h1 className="" style={{fontSize:'28px',fontWeight:'400', color:'#b7b0c1 !important',marginTop:'30px',lineHeight:'1.8'}}>MY FISH PARTNER TOLD ME THAT THERE WILL BE A MYSTERIOUS REWARD FOR HOLDING $FISH</h1>
-            </div>
-            <div className="container" style={{marginTop:'2%'}}>                
-                <h1 className="text-center" style={{fontSize:'28px',fontWeight:'400', color:'#3a2f2f',marginTop:'30px'}}>INTERACTING WITH FISH CAN ALSO GIVE YOU SOME ANSWERS.</h1>
-            </div>
-            <div className='text-center' style={{height:'600px', textAlign:'center'}}>
-                <iframe src="https://ora.ai/embed/7910c962-dffd-4935-be28-b86456ef2fbe" style={{height:'100%', width:'400px'}}  ></iframe>
             </div>
         </section>
   	);

@@ -16,7 +16,7 @@ class Descriptions extends React.Component {
                 <div className="row">
                     <div className='text-center text-white margin-t-30 div_countup'>
                         <p className="countup"><CountUp isCounting start={100} end={638} duration={2} />K <span className="padding-t-15 home-desc" style={{fontSize:'20px',lineHeight:'54px'}}>Address</span></p>
-                        <p className="countup"><CountUp  isCounting start={0} end={7} duration={1.5} />B <span className="padding-t-15 home-desc" style={{fontSize:'20px',lineHeight:'54px'}}>Tokens</span></p>
+                        <p className="countup"><CountUp  isCounting start={0} end={6} duration={1.5} />B <span className="padding-t-15 home-desc" style={{fontSize:'20px',lineHeight:'54px'}}>Tokens</span></p>
                         <p className="countup"><CountUp  isCounting start={10} end={24} duration={1} /> <span className="padding-t-15 home-desc" style={{fontSize:'20px',lineHeight:'54px'}}>hr</span></p>
                         <p className="countup"><CountUp  isCounting start={100} end={300} duration={1.5} />m <span className="padding-t-15 home-desc" style={{fontSize:'20px',lineHeight:'54px'}}>Interaction</span></p>
                     </div>
