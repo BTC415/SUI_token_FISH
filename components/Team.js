@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import  Link  from 'next/link';
 
 const Svg_block = () => {
     return (
@@ -30,7 +31,7 @@ const Team = () => {
                     <div className="col-lg-10 offset-lg-1">
                         <div className='text-center'>
                             <h1 className="text-center" style={{fontSize:'56px',fontWeight:'600', color:'#5a6854',marginTop:'4%'}}>READY TO BECOME A FISH?</h1>
-                            <button className="btn  waves-effect waves-light _token" style={{marginTop: '1%',letterSpacing: '0px', marginBottom:'2%',paddingLeft:'30px',paddingRight:'30px',fontSize:'30px'}}>White Paper</button>
+                            <Link href="https://docks.fishui.xyz" target="_blank" className="btn  waves-effect waves-light _token" style={{marginTop: '1%',letterSpacing: '0px', marginBottom:'2%',paddingLeft:'30px',paddingRight:'30px',fontSize:'30px'}} >White Paper</Link>
                             <h1 className="text-center" style={{fontSize:'30px',fontWeight:'400', color:'#acacd0'}}>SWIM IN THE SUI TOGETHER!</h1>
                         </div>
                     </div>

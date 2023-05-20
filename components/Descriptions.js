@@ -1,5 +1,6 @@
 import React from 'react';
 import {CountUp} from 'use-count-up';
+import Link from 'next/link';
 
 class Descriptions extends React.Component {
   render() {
@@ -9,7 +10,7 @@ class Descriptions extends React.Component {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 text-center">
-                            <button className="btn  waves-effect waves-light _token">TOKEN ECONOMICS</button>                        
+                            <Link href="https://docks.fishui.xyz" target="_blank" className="btn  waves-effect waves-light _token">TOKEN ECONOMICS</Link>                        
                     </div>
                 </div>
                 <div className="row">
