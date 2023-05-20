@@ -1,8 +1,8 @@
 import React, { useEffect, useReducer, useState } from 'react';
-import CountdownTimer from './CountdownTimer';
 import { useWallet } from '@suiet/wallet-kit';
 import { toast } from 'react-toastify';
 import ProgressBar  from 'react-bootstrap/ProgressBar';
+import CountdownTimer from './CountdownTimer';
 
 const Services = () => {
     const wallet = useWallet();
