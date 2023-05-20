@@ -4,20 +4,33 @@ import { readFile, writeFile } from "fs/promises";
 const dataFilePath = process.env.DataPath + '/ClaimData.json';
 
 export default async function handler(req, res) {
+    console.log('dataFilePath', dataFilePath)
     if(req.method === 'GET') {
-        const jsonData = await readFile(dataFilePath);
-        const objectData = JSON.parse(jsonData.toString());
+        let objectData = {}
+        try {
+            const jsonData = await readFile(dataFilePath);
+            objectData = JSON.parse(jsonData.toString());
+        } catch (e) {
+
+        }
 
         res.status(200).json(objectData);
     } else {
+        let jsonData = {}
+        let jsonString = ""
         try {
-            let jsonData = await readFile(dataFilePath);
+            jsonData = await readFile(dataFilePath);
+            jsonString = jsonData.toString();
+        }
+        catch (e) {
+
+        }
+        try {
             // console.log("objectData?>>>>>", jsonData.toString())
-            let jsonString = jsonData.toString();
             let objectData = {};
             if(jsonString != '') {
                 objectData = JSON.parse(jsonString);
-            }        
+            }
             const userInfo = req.body;
             if(objectData[userInfo.address]) {
                 res.status(200).json({ message: 'User aleady exists.', type: 'error' });

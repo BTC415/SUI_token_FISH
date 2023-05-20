@@ -2,9 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  // env: {
-  //   DataPath: '.',
-  // },
+  env: {
+    DataPath: '.',
+  },
 }
 
 module.exports = nextConfig
