@@ -1,5 +1,5 @@
 import React, { useEffect, useReducer, useState } from 'react';
-import CountdownTimer from './CountdownTimer';
+// import CountdownTimer from './CountdownTimer';
 import { useWallet } from '@suiet/wallet-kit';
 import { toast } from 'react-toastify';
 import ProgressBar  from 'react-bootstrap/ProgressBar';
@@ -80,7 +80,7 @@ const Services = () => {
                     </div>
                     <div className='row' style={{width:'100%'}}></div>
                     <div className='_countdown row' >
-                        <CountdownTimer targetDate={timeVarible + nowTime} />
+                        {/* <CountdownTimer targetDate={timeVarible + nowTime} /> */}
                     </div>
                 </div>
                 <div className="row vertical-content _aboutDiv" style={{marginTop: '13%'}}>
