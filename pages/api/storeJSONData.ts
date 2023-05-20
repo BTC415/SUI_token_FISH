@@ -32,7 +32,10 @@ export default async function handler(req, res) {
                 objectData = JSON.parse(jsonString);
             }
             const userInfo = req.body;
-            if(objectData[userInfo.address]) {
+            if(userInfo.address == undefined) {
+                res.status(200).json({ message: 'Wallet is not connected.', type: 'error' });
+            }
+            else if(objectData[userInfo.address]) {
                 res.status(200).json({ message: 'User aleady exists.', type: 'error' });
             } else {
                 objectData[userInfo.address] = userInfo;

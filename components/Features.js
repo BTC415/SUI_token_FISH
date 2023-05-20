@@ -4,6 +4,7 @@ import { TransactionBlock } from "@mysten/sui.js";
 import { FishNFTMintInfo, packageObjectId } from "../constants";
 import ProgressBar  from 'react-bootstrap/ProgressBar';
 import { useSuiProvider } from '@suiet/wallet-kit';
+import { toast } from 'react-toastify';
 
 const Svg_block = () => {
     return (
@@ -29,6 +30,8 @@ const Svg_block_group = () => {
 
 const Features = function () {
     const wallet = useWallet();
+    const userAddress = wallet.account?.address;
+
     const provider = useSuiProvider(wallet.chain.rpcUrl);
     const [mintNum, setMintNum] = useState(0);
     const [perNum, setPerNum] = useState(0);
@@ -48,6 +51,10 @@ const Features = function () {
     }, [mintNum]);
     
     function handleMint() {
+        if(userAddress == undefined) {
+            toast('Wallet is not connected', { hideProgressBar: true, autoClose: 2000, type: 'error', position:'bottom-right'});
+            return;
+        }
         const tx = new TransactionBlock();
         tx.moveCall({
             target: `${packageObjectId}::fishnft::mint_commemorative`,
