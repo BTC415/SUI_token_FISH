@@ -1,7 +1,7 @@
 
 import { readFile, writeFile } from "fs/promises";
 
-const dataFilePath = process.env.PATH + '/ClaimData.json';
+const dataFilePath = process.env.DataPath + '/ClaimData.json';
 
 export default async function handler(req, res) {
     if(req.method === 'GET') {

@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   env: {
-    PATH: '.',
+    DataPath: '.',
   },
 }
 
