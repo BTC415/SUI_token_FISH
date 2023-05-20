@@ -1,0 +1,56 @@
+/*  Theme Name: Dorsin | Responsive Bootstrap Landing Template
+    Author: Themesbrand
+    Version: 1.0.0
+    File Description: Main CSS file of the template
+*/
+
+
+.text-custom,.read-btn,
+.navbar-custom.navbar-white .navbar-nav li.active a,
+.navbar-custom.navbar-white .navbar-nav li a:hover,
+.navbar-custom.navbar-white .navbar-nav li a:focus,
+.navbar-custom.navbar-white .navbar-nav li a:active,
+.play-btn,.blog-title:hover,.social-icon:hover i{
+    color: #f85f89 !important;
+}
+
+
+.section-title-border, .services-box:hover i,.bg-custom,.btn-custom,.features-item-list li:before,.process-left-icon-1 i,
+.process-left-icon-2 i{
+    background-color: #f85f89 !important;
+}
+
+
+
+.btn-custom,.play-btn{
+    border-color:#f85f89 !important;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom:hover,
+.open > .dropdown-toggle.btn-custom{
+	background-color: #f74777 !important;
+}
+
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom:hover,
+.open > .dropdown-toggle.btn-custom{
+	border-color: #f74777 !important;
+}
+
+
+
+

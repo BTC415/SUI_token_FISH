@@ -1,0 +1,2 @@
+export const packageObjectId = "0x72b58115af586a0bdff6dd924b3e02c8580e94e0d6dde7b00e919e0ef464e636";
+export const FishNFTMintInfo = "0xcd026c49fe074f00f3b8a03cbd4bbf7d6551056d02425f7967bb3c284b36b2bf"

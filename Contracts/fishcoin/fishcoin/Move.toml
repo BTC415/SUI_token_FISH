@@ -1,0 +1,10 @@
+[package]
+name = "fishcoin"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "testnet" }
+
+[addresses]
+fishcoin =  "0x0"
+sui =  "0x2"
