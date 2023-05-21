@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@scallop-io/sui-kit": "^0.34.1",
     "@suiet/wallet-kit": "^0.2.11",
     "@types/node": "18.11.11",
     "@types/react": "18.0.26",
