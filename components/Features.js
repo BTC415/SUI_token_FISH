@@ -86,7 +86,8 @@ const Features = function () {
                             <p className="section-subtitle font-secondary" id='_feature_subtitle' style={{color:'#8686ff !important',marginBottom:'0px'}}>The fun continues</p>
                             <h1 className="" style={{fontSize:'52px',fontWeight:'600', color:'#5a6854'}}>MEMORIAL EDITION NFT</h1>
                             <h1 className="" style={{fontSize:'33px',lineHeight: '2',fontWeight:'400', color:'#b7b0c1 !important',marginTop:'20px'}}>The launch of the Memorial Sui main net also represents the arrival of FISH, which will offer five fishing opportunities and three guarantees in the soon-to-be-released Fish Pond game, as well as airdrop eligibility for FISHSWAP.</h1>
-                            <h1 className="" style={{fontSize:'55px',fontWeight:'600', color:'#5a6854'}}>$50</h1>
+                            <h1 className="" style={{fontSize:'55px',fontWeight:'600', color:'#5a6854'}}>50 SUI</h1>
+                            <h1 className="" style={{fontSize:'33px',fontWeight:'600', color:'#5a6854'}}>maximum 8</h1>
                         </div>
                     </div>
                     <div className="col-lg-6" style={{paddingLeft:'2%'}}>

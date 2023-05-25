@@ -63,7 +63,8 @@ const Features2 = () => {
                             <p className="section-subtitle font-secondary" id='_feature_subtitle' style={{color:'#8686ff',marginBottom:'0px'}}>The fun continues</p>
                             <h1 className="" style={{fontSize:'52px',fontWeight:'600', color:'#5a6854'}}>NORMAL</h1>
                             <h1 className="" style={{fontSize:'33px',lineHeight: '2',fontWeight:'400', color:'#b7b0c1 !important',marginTop:'20px'}}>There are 2 chances to fish in the fish pond with one guarantee (must produce a reward), with which you can certify the early supporters of FISHSWAP and may be surprised.</h1>
-                            <h1 className="" style={{fontSize:'55px',fontWeight:'600', color:'#5a6854'}}>$10</h1>
+                            <h1 className="" style={{fontSize:'55px',fontWeight:'600', color:'#5a6854'}}>10 SUI</h1>
+                            <h1 className="" style={{fontSize:'33px',fontWeight:'600', color:'#5a6854'}}>maximum 8</h1>
                         </div>
                     </div>
                 </div>

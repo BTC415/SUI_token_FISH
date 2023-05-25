@@ -42,7 +42,6 @@ export default async function handler(req, res) {
 
         }
         try {
-            // console.log("objectData?>>>>>", jsonData.toString())
             let objectData = {};
             if(jsonString != '') {
                 objectData = JSON.parse(jsonString);
@@ -62,26 +61,7 @@ export default async function handler(req, res) {
             }            
         } catch (error) {
             console.error('error>>>',error);
-            // Send an error response
             res.status(500).json({ message: error });
         }
     }    
 }
-
-
-// export default async function handler(req, res) {
-//     console.log("backend-req?>>>>>", req)
-//     try {
-//         let jsonData = await readFile(dataFilePath);
-//         const objectData = JSON.parse(jsonData.toString());
-//         const userInfo = req.body;
-//         objectData.push(userInfo);
-//         const updatedData = JSON.stringify(objectData);
-//         await writeFile(dataFilePath, updatedData);
-//         res.status(200).json({ message: 'Data stored successfully' });
-//     } catch (error) {
-//         console.error('error>>>',error);
-//         // Send an error response
-//         res.status(500).json({ message: error });
-//     }
-// }
