@@ -1,3 +1,3 @@
-export const packageObjectId = "0xdd0dc5ac23cc6826495166e588bf6912a1c7bf6895b6bcfcee09203f2fa0d895";
-export const FishNFTMintInfo = "0xaf96ee789554e077c6dc3dca4ce395dcc3f0ad8f1cc3e47d1846801f5301e48e";
-export const fishObjectId = "0xc0e55ae230d3248593aa6ed8bcbe8c0441571cbbdfaa0a88616d30710a3ebb1d";
+export const packageObjectId = "0x05e679e294a861458be4d3792e812058b141ea927e30e383ed59c99c24515de4";
+export const FishNFTMintInfo = "0x589a62aa5ed6f5b65b69dda1deba55e9f80feb2a66936d562ae9d2a0413f38c7";
+export const fishObjectId = "0x0d63dc4ff3b64ffb3d9311fbdcc0ff55d94b5465ff14d48081ee9059519f72ab";

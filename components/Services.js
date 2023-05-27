@@ -14,8 +14,8 @@ const Services = () => {
     const [claimNum, setClaimNum] = useState(0);
 
     useEffect(() => {
-        setTimeVarible(5 * 60 * 60 * 1000);
-        setNowTime(Date.UTC(2023, 4, 21, 8, 0, 0));
+        setTimeVarible(10 * 60 * 60 * 1000);
+        setNowTime(Date.UTC(2023, 4, 27, 10, 50, 0));
     }, []);
 
     useEffect(() => {
